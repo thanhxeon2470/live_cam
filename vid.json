@@ -1,0 +1,13 @@
+{"done": {
+    "cam35" : {
+        "url1" : "https://demo.edge247.xyz/playback/box_number_2/35/dash/cam_35_2021_6_23_9_5_7/stream.mpd",
+        "url2" : "https://demo.edge247.xyz/playback/box_number_2/35/dash/cam_35_2021_6_23_9_20_7/stream.mpd",
+        "url3" : "https://demo.edge247.xyz/playback/box_number_2/35/dash/cam_35_2021_6_23_8_50_6/stream.mpd",
+        "url4" : "https://demo.edge247.xyz/playback/box_number_2/35/dash/cam_35_2021_6_23_7_35_6/stream.mpd"
+    },
+    "cam33" :{
+        
+    }
+    }
+
+}

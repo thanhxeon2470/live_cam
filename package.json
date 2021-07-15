@@ -1,0 +1,57 @@
+{
+  "name": "drm-vid",
+  "version": "1.0.0",
+  "description": "App use electron to watch video attached DRM",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron main.js ",
+    "test": "electron .",
+    "build-installer": "electron-builder"
+  },
+  "build": {
+    "appId": "drm-vid",
+    "win": {
+      "target": [
+        "nsis"
+      ],
+      "requestedExecutionLevel": "requireAdministrator"
+    },
+    "nsis": {
+      "uninstallDisplayName": "UnDRM",
+      "license": "license.txt",
+      "oneClick": false,
+      "allowToChangeInstallationDirectory": true
+    }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Pham-Xuan-Thanh/Vid_DRM.git"
+  },
+  "keywords": [
+    "DRM",
+    "electron",
+    "vid"
+  ],
+  "author": "PXT Xeon",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Pham-Xuan-Thanh/Vid_DRM/issues"
+  },
+  "homepage": "https://github.com/Pham-Xuan-Thanh/Vid_DRM#readme",
+  "dependencies": {
+    "decompress": "^4.2.1",
+    "express": "^4.17.1",
+    "find": "^0.3.0",
+    "findit": "^2.0.0",
+    "jsdom": "^16.6.0",
+    "node-onvif": "^0.1.7"
+  },
+  "devDependencies": {
+    "electron": "^13.1.4",
+    "electron-packager": "^15.2.0",
+    "extract-zip": "^2.0.1",
+    "morgan": "^1.10.0",
+    "electron-builder": "^22.11.7",
+    "nodemon": "^2.0.7"
+  }
+}
