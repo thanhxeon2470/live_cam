@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   
+</head>
+<body>
+    <script src="../js/ptz_move.js"></script>
+    <button type="submit" id="btnSubmit" >Submit</button>
+    <!-- <script>
+        document.getElementById('btnSubmit').addEventListener('click', (event) => {
+            event.preventDefault();
+            var inpFile = document.getElementById('inpfile');
+            var urlSV = document.getElementById('urlSV');
+            var filelist = inpFile.files;
+            if(filelist.length == 1) {
+                ipc.send('file:submit', filelist[0].path, urlSV.value);   
+            }
+
+
+        });
+    </script> -->
+    <script>
+        // onvif_discovery();
+        initPTZ();
+    </script>
+
+</body>
+</html>
